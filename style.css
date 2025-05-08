@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.section-1 {
+    background-color: #1F2937;
+}
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+   padding-left: 150px;
+   padding-top: 15px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    color: white;
+    gap: 15px;
+    padding-right: 150px;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.container {
+    display: flex;
+}
+
+.container div {
+    flex: 1;
+    align-items: center;
+}
+
+.box {
+    flex: 1;
+    padding: 100px;
+    align-items: center;
+}
+
+.image-box {
+    background-color: #b2beb5;
+    margin: 100px;
+    text-align: center;
+}
+
+ .text-box{
+    color: white;
+    margin-left: 80px;
+    flex-direction: column;
+}
+
+h2 {
+    font-size: 48px;
+    font-weight: 900;
+}
+.brief {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.btn-2 {
+    background-color: #3882f6;
+    color: white;
+    border-radius: 10px;
+    border-color: #3882f6;
+    font-size: 15px;
+    font-weight: bold;
+    width: 100px;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+h3 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.container-1 {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 40px;
+   margin-top: 25px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.text {
+    border: 3px solid lightblue;
+    height: 100px;
+    width: 110px;
+    border-radius: 9px;
+    margin: 15px;
+}
+
+.item p {
+    font-size: 14px;
+}
+
+.container-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #e5e7eb;
+    color: #1F2937;
+    padding: 40px;
+    margin-top: 60px;
+}
+
+.container-2 p {
+    font-size: 25px;
+    font-style: italic;
+}
+
+.inspo {
+    font-weight: bold;
+    /*margin-top: 100px;*/
+}
+
+.inspo p {
+    margin-top: 200px;
+}
+
+.container-flex {
+    background: #3882f6;
+    margin-top: 80px;
+    margin-left: 330px;
+    margin-right: 220px;
+    height: 100px;
+    border-radius: 5px;
+    width: 650px;
+    color: white;
+    font-size: 12px;
+    display: flex;
+    gap: 160px;
+}
+
+.container-flex .flex {
+   margin-top: 40px;
+   margin-left: 50px;
+}
+
+.container-flex h5 {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+button {
+    border: 1px solid white;
+    background-color: #3882f6;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    width: 70px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+footer {
+    background: #1F2937;
+    height: 40px;
+    color: white;
+    margin-top: 50px;
+    justify-content: center;
+    display: flex;
+    padding: 25px;
+} 
